@@ -25,7 +25,7 @@ function App() {
 
   return (
         
-    <Authenticator>
+    <Authenticator signUpAttributes={['email', 'phone_number']}>
       {({ signOut, user }) => (
         <main>
           <h1>{user?.signInDetails?.loginId}'s todos</h1>
