@@ -11,7 +11,7 @@ export const auth = defineAuth({
   },
 
   multifactor: {
-    mode: 'REQUIRED',
+    mode: 'OPTIONAL',
     sms: true,
   },
 });
